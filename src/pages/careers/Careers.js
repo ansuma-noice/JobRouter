@@ -20,7 +20,7 @@ export default function Careers() {
 
 // loader fn
 export const careersLoader= async()=>{
-    const res = await fetch('https://job-router.onrender.com/careers')
+    const res = await fetch('https://localhost:4000/careers/')
 
     if(!res.ok) throw Error('Could not fetch the careers')
 
