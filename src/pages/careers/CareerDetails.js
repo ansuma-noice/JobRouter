@@ -24,7 +24,7 @@ export default function CareerDetails() {
 export const careerDetailsLoader=async({params})=>{
     const {id}=params
 
-    const res=await fetch('https://localhost:4000/careers/'+id)
+    const res=await fetch('https://ansuma-noice.github.io/db/db.json/'+id)
 
     if(!res.ok) throw Error('Could not find that career')
 
