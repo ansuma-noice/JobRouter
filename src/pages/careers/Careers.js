@@ -20,7 +20,7 @@ export default function Careers() {
 
 // loader fn
 export const careersLoader= async()=>{
-    const res = await fetch('https://ansuma-noice.github.io/db/db.json/')
+    const res = await fetch('https://ansuma-noice.github.io/db/db.json')
 
     if(!res.ok) throw Error('Could not fetch the careers')
 
